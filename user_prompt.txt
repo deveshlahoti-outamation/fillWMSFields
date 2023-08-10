@@ -1,0 +1,35 @@
+Example Input 1: 
+Comment 1: refaxed request for notes - ONCO
+Comment 2: called providers office to confirm fax #, opt 2 for wound healing, spoke with Whitney, confirmed fax #, follow up @ later date - ONCO
+Comment 3: DOB 04/20/1968, DX: S81.802A, Provider Ph no: 270-886-6412, DOS 01/20/2023 Received response from client that they made a change to the CCA process, documentation requests can be done for all invoices, So fax request sent to Dr. WELLS, GERAME @270-886-3349 for Chart Notes from 07/24/2022 to 01/20/2023 Need to followup.Onco
+Comment 4: dos:01/20/2023//per waystar(chicago)eob ANTHEM HEALTH PLANS OF KY,partial paid and dnd on 02/02/2023 billed$7921.20 ded$649.80 coins$284.85 paid$854.55 clm#2023024CR6212 ck#3201295792.cpt,A6456 A6197 dnd Benefit maximum for this time period or occurrence has been reached.chk upg overage allowed.chked Filebound Valid MR not available. Hence need request to valid MR .Onco  Example Output 1: 
+04/20/1968; Dr. WELLS, GERAME; 270-886-6412; 270-886-3352; Chart Notes
+
+
+Example Input 2: 
+Comment 1: Received response from physician to refax , so fax request sent to 270-886-3352.
+Comment 2: transferred, spoke to wendy, transferred again, did not pick up. left voicemail. please follow up. ONCO
+Comment 3: DOB 11/12/1961 DX: Z93.3 , Provider Ph no: 512-462-6634 , DOS 01/25/2023 fax request sent to Dr. WHISENANT , NORMAN @ 512-462-6795 for chart notes from 07/29/2022 to 01/25/2023 Need to followup.Onco
+Comment 4: Dos 01/25/2023 Per Waystar (CH) Claim paid $183.17 with coins $45.79 clm# 02023027509H1820X00 chk# C23027E43332910 on 01/31/2023 by BLUECROSS BLUESHIELD OF TEXAS. HCPC A5061 partially dnd as Exceeds number/frequency approved/allowed within time period. PEr UPG overages are allowed. Checked filebound no MR found. Hence need to request for valid MR. ONCO  Example Output 2: 
+11/12/1961; Dr. WHISENANT, NORMAN; 512-462-6634; 512-462-6795; Chart Notes
+
+
+Example Input 3: 
+Comment 1: refaxed request for notes - ONCO
+Comment 2: called providers office, transferred to MR, no answer, mailbox full, try again @ later date - ONCO
+Comment 3: 408-454-2626, received busy signal. 408-885-5000 and spoke Jenette , said to fax to 408-885-6577. Refaxing. - ONCO
+Comment 4: nemises gav fax#408.299.2011 for provider - ONCO
+Comment 5: DOB 05/21/2000, DX: Q05.8, Provider Ph no: 408-454-2626, DOS 01/30/2023 Received response from client that they made a change to the CCA process, documentation requests can be done for all invoices, So fax request sent to Dr. JOU, RONALD @408-277-0484 for chart notes from 08/03/2022 to 01/30/2023 Need to followup.Onco
+Comment 6: As per review waystar (HB) claim filed VALLEY HEALTH PLAN recived on 03/08/2023 HCPCS A6197 Billed $ 1117.50 claim denied as "Precertification/authorization/notification/pre-treatment absent" Under claim: # 23033E005276 eft: # 4126341. Based on review in ERP & FILEBOUND not found valid authorization and also Checked filebound MR not found. Hence need to send req for medical records..Onco  Example Output 3: 
+05/21/2000; Dr. JOU, RONALD; 408-885-5000; 408-885-6577; Chart Notes
+
+
+Example Input 4: 
+Comment 1: DOB 12/24/1956, DX: M1A.9XX1 , Provider Ph no: 808-732-3368, Dos 09/26/2022 verified ERP unable to find the Physician fax number for (Dr. YOUNG, CHRISTOPHER ) NPI# 1588067177 , Hence need to contact the physician and get valid fax number for further process.Onco
+Comment 2: 4/25/2023\\Dos 09262022\\ as per waystar(HB), KAISER FOUNDATION HEALTH PLAN, INC . processed on 02/14/2023 and CPT:A6216 NU - denied as Missing Explanation of Benefits (Coordination of Benefits or Medicare Secondary Payer " under the clm#43277040 eft#0000Z1250020406 . Verified ERP, patient's primary policy is Medicare which is active on the Dos Inquiry ID: 3712128552 .chkd erp customer type tied with(4677) toolbox and Checked in ERP HCPCS A6216 due to no valid RX on file, need to request the RX from physician...onco
+
+Example Output 4:
+
+12/24/1956; Dr. YOUNG, CHRISTOPHER; 808-732-3368; NA; NA
+
+
